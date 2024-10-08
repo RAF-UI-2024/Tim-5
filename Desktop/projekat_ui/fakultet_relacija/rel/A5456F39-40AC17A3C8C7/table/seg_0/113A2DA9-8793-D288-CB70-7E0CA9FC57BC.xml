@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="113A2DA9-8793-D288-CB70-7E0CA9FC57BC" name="Profesor_Fakultet">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:42:21 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Profesor_ID " id="9C450108-8A27-3CE4-82BA-386E126C9FC8">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:42:38 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7B6D61B-763D-C4C7-B26A-2F82A247DE31" referredColumn="4B1340A3-3320-ACF8-8A88-70FBAAE05680"/>
+</associations>
+</Column>
+<Column name="Fakultet_ID" id="29F7B5FA-1C44-A87A-A955-C172FD876DEC">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:42:51 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B7024A9-C125-2E9F-F982-B012C07923F2" referredColumn="AB623E93-E9AE-E7C0-00E2-28EA9F81EA8C"/>
+</associations>
+</Column>
+<Column name="Datum_zaposlenja" id="381A9CD9-9149-1E87-C268-0F206E5CC66F">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:43:49 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Radno_mesto" id="ABE77EEE-69A4-1B04-847C-868855CB9A57">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:44:10 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5886F0E-3AC6-D590-9461-37FBB12E7F64" name="Profesori _FK">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:42:38 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C450108-8A27-3CE4-82BA-386E126C9FC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FECF2D41-763C-E238-924C-6B6F9DA38122" name="Fakulteti_FK">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:42:51 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29F7B5FA-1C44-A87A-A955-C172FD876DEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

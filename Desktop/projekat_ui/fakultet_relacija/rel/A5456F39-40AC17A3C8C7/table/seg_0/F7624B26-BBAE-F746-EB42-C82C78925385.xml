@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7624B26-BBAE-F746-EB42-C82C78925385" name="Smerovi">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:46:01 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Smer_ID" id="EDA5B4A6-468C-AB42-1077-0E33D77F526E">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:46:43 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="AD44F852-DCF8-3D3D-7FCE-BBC789AC66A0">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:46:43 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="2E14F538-5399-59D6-BE09-9CEEE46E643B">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:47:30 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Trajanje_studija" id="09BA8CA8-685B-BD51-AD78-D8966CED120A">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:47:30 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fakultet_ID" id="7B298D20-54EA-E1C1-0C01-B281BC3D076D">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:58:44 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70821428-77CB-2C6B-17A3-DC8B917C68B6" referredColumn="AB623E93-E9AE-E7C0-00E2-28EA9F81EA8C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9E6E5C3-241B-22D0-B9C5-B719A1F37287" name="Smerovi_PK">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:46:43 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDA5B4A6-468C-AB42-1077-0E33D77F526E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2935DD5-0278-58E1-7EDB-CA54A8BF5AF0" name="Smerovi_Fakulteti_FK">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:58:44 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B298D20-54EA-E1C1-0C01-B281BC3D076D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="499BF02A-3674-8F81-5D22-81E14FF233A4" name="Fakulteti">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:08:36 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Fakultet_ID" id="AB623E93-E9AE-E7C0-00E2-28EA9F81EA8C">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:10:01 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="A201E7DC-5891-F5D2-20BE-20006B1A5670">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:11:13 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lokacija" id="EFA75BF4-EE43-93D5-1E66-86DADE6322FF">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:11:34 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75FA9103-FE73-D1DA-13D2-A32D94E1D8F1" name="Fakultet_PK">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:10:01 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB623E93-E9AE-E7C0-00E2-28EA9F81EA8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

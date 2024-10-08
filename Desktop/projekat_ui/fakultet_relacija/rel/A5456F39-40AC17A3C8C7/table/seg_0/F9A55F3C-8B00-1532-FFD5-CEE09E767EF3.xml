@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9A55F3C-8B00-1532-FFD5-CEE09E767EF3" name="Predmeti">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:44:45 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Predmet_ID" id="569CEC3E-4EA7-485A-1077-9621D2B82E8A">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:45:51 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="8883747B-0217-6FFF-7210-46E24C49F054">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:45:51 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="ADCAF6E9-CCBD-9408-8D78-6EF76EFF3A92">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:45:51 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_ESPB" id="8D9F928D-8164-B867-1898-04FA2868F01D">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:45:51 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Profesor_ID " id="97D6663B-4A73-CC7F-07ED-680E942958F3">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:59:55 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19E0D79C-1B53-E614-58E0-58AD2FDBF5E3" referredColumn="4B1340A3-3320-ACF8-8A88-70FBAAE05680"/>
+</associations>
+</Column>
+<Column name="Smer_ID" id="8EC71CCD-1278-F74A-D897-7500D3FB858B">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:59:59 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="209420E3-9F31-F88B-C04F-F6F14634F2B8" referredColumn="EDA5B4A6-468C-AB42-1077-0E33D77F526E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2758BBA-3941-DAF7-EFB2-D0DC73D05F7F" name="Predmeti_PK">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:45:51 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="569CEC3E-4EA7-485A-1077-9621D2B82E8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="148592DC-23A5-64DD-786C-4F0842402130" name="Predmeti_Profesori _FK">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:59:55 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97D6663B-4A73-CC7F-07ED-680E942958F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F01F490-228C-32AB-F3D4-8C13410F8B36" name="Predmeti_Smerovi_FK">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:59:59 UTC</createdTime>
+<ownerDesignName>fakultet_relacija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EC71CCD-1278-F74A-D897-7500D3FB858B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
