@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD0C7591-4399-2E1F-8F5F-FA1515990978" name="Ispiti">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:47:55 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ispit_ID" id="6266D65E-CE9B-6F3A-2EC7-A4427C0A4123">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:49:20 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_polaganja" id="4EF29272-9380-3AE4-99AA-7C36CAC06714">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:49:20 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ocena" id="AF0F92C3-BDB5-DE85-434C-73EB6B384707">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:49:20 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="88A6A1B3-2E60-5A99-9C8B-82C8BCA4F6F2" name="Ispiti_PK">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:49:20 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6266D65E-CE9B-6F3A-2EC7-A4427C0A4123"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

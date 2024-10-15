@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="399A73C7-9667-D0E2-3C89-71DB7D87AB60" name="Tip_Profesora">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:04:12 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Profesori _Profesor_ID " id="5F1CBA83-CEFC-5F82-1E1E-45BEEB491F63">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:04:27 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B769D325-7FE7-85EA-7497-DE4E5B585176" referredColumn="4B1340A3-3320-ACF8-8A88-70FBAAE05680"/>
+</associations>
+</Column>
+<Column name="Naziv" id="83E11504-1609-3BB5-0E8D-0331BE263EB0">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:04:54 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51D9A6D7-CB2B-985A-94AA-363E7F67B6C3" name="Tip_Profesora_Profesori _FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:04:27 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F1CBA83-CEFC-5F82-1E1E-45BEEB491F63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

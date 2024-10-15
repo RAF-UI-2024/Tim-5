@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51880CE8-3447-C38C-5330-8017693BBC0A" name="Katedra_Zaposleni">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 13:47:31 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Katedra_ID" id="F5DCDF78-80D7-CCB9-5CCE-8A0A2262B68D">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 13:49:53 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9085530-5508-942E-381D-A01B3DA2C5BE" referredColumn="664062E4-43CB-62BE-EE8D-A95F5D81F288"/>
+</associations>
+</Column>
+<Column name="Zapolseni_ID" id="CA027276-587C-D330-02D2-5442DA06C923">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:01:06 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2659727C-24CC-4A21-10CA-327BCE67A84A" referredColumn="CD37E4B7-2ADF-B9C7-D04D-2AF6F7817AFF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A2AB010-99E2-FBE0-ADC1-199DA75C73A6" name="Katedre_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 13:49:53 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5DCDF78-80D7-CCB9-5CCE-8A0A2262B68D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55342524-9599-319A-04DF-BB064B0C3BDE" name="Katedra_Profesor_Zaposleni_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:01:06 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA027276-587C-D330-02D2-5442DA06C923"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

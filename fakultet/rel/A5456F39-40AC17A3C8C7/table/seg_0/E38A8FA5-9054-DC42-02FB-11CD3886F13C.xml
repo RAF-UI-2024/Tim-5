@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E38A8FA5-9054-DC42-02FB-11CD3886F13C" name="Profesori ">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:14:19 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Profesor_ID " id="4B1340A3-3320-ACF8-8A88-70FBAAE05680">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:16:03 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zapolseni_ID" id="2354B2E4-1EF7-5B95-FB9A-0C84A9E36510">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 13:55:14 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2BDEE26A-D9C2-3F39-D8FE-F9A2C6B2DB64" referredColumn="CD37E4B7-2ADF-B9C7-D04D-2AF6F7817AFF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53D9D9E8-B4A1-8110-A97A-F73B90E9E48A" name="Profesori_PK">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:16:03 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B1340A3-3320-ACF8-8A88-70FBAAE05680"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE6C93E7-6D34-4B5D-DBA4-D83AB005C175" name="Profesori _Zaposleni_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 13:55:14 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2354B2E4-1EF7-5B95-FB9A-0C84A9E36510"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

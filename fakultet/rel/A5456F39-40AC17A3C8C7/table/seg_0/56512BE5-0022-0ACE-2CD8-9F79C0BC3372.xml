@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56512BE5-0022-0ACE-2CD8-9F79C0BC3372" name="Predmet_Smer">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:13:47 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Smerovi_Smer_ID" id="209CCAE4-A224-5E16-8664-4645EFB1695E">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:14:02 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0B779D6-2E83-815D-06E0-60B463E06699" referredColumn="EDA5B4A6-468C-AB42-1077-0E33D77F526E"/>
+</associations>
+</Column>
+<Column name="Predmeti_Predmet_ID" id="16150D63-87D2-A360-F720-1E7274EFE5B1">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:14:05 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A54D5C8E-3F53-0EF8-B17C-3AD3BB50BD2A" referredColumn="569CEC3E-4EA7-485A-1077-9621D2B82E8A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F45BF119-DED6-CF5B-68BA-6920BB3108EE" name="Predmet_Smer_Smerovi_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:14:02 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="209CCAE4-A224-5E16-8664-4645EFB1695E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B67C0B09-8AD7-68E5-01BD-5986A1D90BC5" name="Predmet_Smer_Predmeti_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:14:05 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16150D63-87D2-A360-F720-1E7274EFE5B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

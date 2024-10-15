@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06CFB82A-5DAA-F5CB-F374-F5603315A9C8" name="Implementacija_Predmeta">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:09:32 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Implementacija_Predmeta_ID" id="39078D8C-656C-488F-F61F-E3B9E8B50794">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:10:09 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Predmeti_Predmet_ID" id="4B998C63-9680-146E-3FDD-1B99E56BEEA0">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:10:26 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6790EC38-5DB5-897B-16BC-0BFC8227A780" referredColumn="569CEC3E-4EA7-485A-1077-9621D2B82E8A"/>
+</associations>
+</Column>
+<Column name="Gradivo" id="2FA1E039-339E-A2FE-A60C-C71176ECC9B5">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:11:00 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D3327B4-32CA-A1F0-46D3-D704B58AF1ED" name="Implementacija_Predmeta_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:10:09 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39078D8C-656C-488F-F61F-E3B9E8B50794"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F2B13C1-165F-9B84-020E-8F35519D1989" name="Implementacija_Predmeta_Predmeti_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:10:26 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B998C63-9680-146E-3FDD-1B99E56BEEA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

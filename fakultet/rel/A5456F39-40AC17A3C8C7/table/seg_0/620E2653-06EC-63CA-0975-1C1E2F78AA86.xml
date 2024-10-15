@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="620E2653-06EC-63CA-0975-1C1E2F78AA86" name="Semestar_Smer">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:17:16 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Semestar_Semestar_ID" id="90D8A81C-4B87-504A-6FFA-69492836F45E">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:17:30 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3DE7555-CE77-82AF-D09A-071CC2815D7F" referredColumn="148D82D9-42F5-143B-9A33-10D886627AA1"/>
+</associations>
+</Column>
+<Column name="Smerovi_Smer_ID" id="D084B4A4-7915-0219-F73F-ED15E303FD06">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:17:35 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE704C6F-D10D-1463-0AB7-68853B9F874A" referredColumn="EDA5B4A6-468C-AB42-1077-0E33D77F526E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1C42178-8EEE-9C84-C35A-D272B4CC67B4" name="Semestar_Smer_Semestar_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:17:30 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90D8A81C-4B87-504A-6FFA-69492836F45E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="123F118A-1354-2E22-2F5D-31FE2CE48B4F" name="Semestar_Smer_Smerovi_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:17:35 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D084B4A4-7915-0219-F73F-ED15E303FD06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

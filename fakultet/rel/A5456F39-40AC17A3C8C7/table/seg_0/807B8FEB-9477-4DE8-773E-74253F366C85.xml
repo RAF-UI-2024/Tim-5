@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="807B8FEB-9477-4DE8-773E-74253F366C85" name="Zaposleni_Predmeti">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:07:37 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zaposleni_Zapolseni_ID" id="1AE0E2A3-1AA7-CB95-2B77-00A712B6FFD5">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:07:49 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1C40718-F982-2A39-3297-09DF0FC1AD06" referredColumn="CD37E4B7-2ADF-B9C7-D04D-2AF6F7817AFF"/>
+</associations>
+</Column>
+<Column name="Implementacija_Predmeta_Implementacija_Predmeta_ID" id="2BDE9691-F931-92A7-0192-4FE13190CF23">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:10:21 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F63F483F-A76E-4DDC-7212-2147CA49BB5B" referredColumn="39078D8C-656C-488F-F61F-E3B9E8B50794"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3505DDA3-BEC9-7D1A-5EF4-5951609EB7F5" name="Zaposleni_Predmeti_Zaposleni_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:07:49 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AE0E2A3-1AA7-CB95-2B77-00A712B6FFD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="843AC3E1-BE0C-8A5A-C1EA-5BAD3FF77608" name="Zaposleni_Predmeti_Implementacija_Predmeta_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:10:21 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BDE9691-F931-92A7-0192-4FE13190CF23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

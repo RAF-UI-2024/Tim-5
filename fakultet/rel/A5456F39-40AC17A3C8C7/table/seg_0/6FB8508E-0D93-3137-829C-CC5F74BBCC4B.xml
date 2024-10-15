@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6FB8508E-0D93-3137-829C-CC5F74BBCC4B" name="Datumi_Zaposlenja">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 13:57:26 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zaposleni_Zapolseni_ID" id="0B9D2478-BDA7-EFE9-2385-DE96537601CE">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 13:58:36 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CDC33FA-69B2-7E2B-8C98-11286D4F4065" referredColumn="CD37E4B7-2ADF-B9C7-D04D-2AF6F7817AFF"/>
+</associations>
+</Column>
+<Column name="Naziv_Posla" id="5FADCD61-903E-C430-7392-B8A956AD6BAD">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 13:59:03 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum" id="D76BDC38-9D4B-4B6F-9E74-2015931DC157">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 13:59:30 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C704C3C9-1FF7-E16F-53B8-49C54AEC088F" name="Datumi_Zaposlenja_Zaposleni_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 13:58:36 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B9D2478-BDA7-EFE9-2385-DE96537601CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F63F483F-A76E-4DDC-7212-2147CA49BB5B" containerWithKeyObject="807B8FEB-9477-4DE8-773E-74253F366C85" localFKIndex="843AC3E1-BE0C-8A5A-C1EA-5BAD3FF77608" name="Zaposleni_Predmeti_Implementacija_Predmeta_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:10:21 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<referredTableLongName>Implementacija_Predmeta</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>06CFB82A-5DAA-F5CB-F374-F5603315A9C8</referredTableID>
+<keyObject>2D3327B4-32CA-A1F0-46D3-D704B58AF1ED</keyObject>
+<referredKeyID>2D3327B4-32CA-A1F0-46D3-D704B58AF1ED</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Implementacija_Predmeta_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBE3203E-293B-C871-30E7-EC043AEC1549" name="Rezultati">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:27:30 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rezultati_ID" id="B198037B-6F19-7888-DA0F-A1E6C2481968">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:27:44 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rezultat" id="2106D485-6F8D-2282-F714-01256BA7AEA7">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:28:03 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Studenti_Student_ID" id="B464865A-6B5E-3E7B-1760-844B6106B10F">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:28:47 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45F01AEF-357D-5A7B-8D75-ED47BB46E855" referredColumn="696154AA-F9E7-8665-59B5-075F7E07F3FC"/>
+</associations>
+</Column>
+<Column name="Ispiti_Ispit_ID" id="5F92CA3E-FDBE-12B1-FCBC-060E374541DB">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:28:50 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56103A82-026A-54FE-532F-09847790A89C" referredColumn="6266D65E-CE9B-6F3A-2EC7-A4427C0A4123"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03A57D12-658E-828D-6F86-41AB15674A21" name="Rezultati_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:28:42 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B198037B-6F19-7888-DA0F-A1E6C2481968"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F067DB07-0C3C-0B04-EC0B-ED007BF05706" name="Rezultati_Studenti_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:28:47 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B464865A-6B5E-3E7B-1760-844B6106B10F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E031FF5-314B-DD21-6060-9C1C95733238" name="Rezultati_Ispiti_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 14:28:50 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F92CA3E-FDBE-12B1-FCBC-060E374541DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C68D557-C85E-E877-F194-69CFC19B021D" name="Asistent">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 13:56:11 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zapolseni_ID" id="7E7A67C2-6A90-4104-ED0D-2B9ABA8B79C1">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 13:56:43 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12030751-02FD-7F9F-AA98-F8E0249CAD12" referredColumn="CD37E4B7-2ADF-B9C7-D04D-2AF6F7817AFF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6188AC1C-4DF1-BAA2-861C-9F12193BB915" name="Asistent_Zaposleni_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-15 13:56:43 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E7A67C2-6A90-4104-ED0D-2B9ABA8B79C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

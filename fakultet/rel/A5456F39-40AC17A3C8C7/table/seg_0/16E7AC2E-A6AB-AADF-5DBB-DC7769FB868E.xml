@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16E7AC2E-A6AB-AADF-5DBB-DC7769FB868E" name="Predmet_Student">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:53:32 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Student_ID" id="2BD3D275-528E-6CFE-F203-DD44FABC215A">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:53:59 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="126AAD78-EC2F-8249-797A-EA4D07D30908" referredColumn="696154AA-F9E7-8665-59B5-075F7E07F3FC"/>
+</associations>
+</Column>
+<Column name="Predmet_ID" id="B9C705D4-8574-B145-CA5F-E645D6AF0DD2">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:54:03 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57E9D247-7B9A-9303-5C75-077F00425B7B" referredColumn="569CEC3E-4EA7-485A-1077-9621D2B82E8A"/>
+</associations>
+</Column>
+<Column name="Godina_slusanja" id="8BB98F82-B670-6B6C-A649-F035C77B1117">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:55:12 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="D92C7106-17A4-6D96-CE31-EB4381AA5B86">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:57:49 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AF70FB64-EA7A-D224-98E3-EF590308D9E5" name="Smeroviv1_PK">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:56:21 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="980F8173-33D1-FCB3-5E26-A63E63C0FBC4" name="Studenti_FK">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:53:59 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BD3D275-528E-6CFE-F203-DD44FABC215A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58E8D828-64C7-46FF-9D75-9FE1FA8BA9A6" name="Predmeti_FK">
+<createdBy>Vukan</createdBy>
+<createdTime>2024-10-08 11:54:03 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9C705D4-8574-B145-CA5F-E645D6AF0DD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
