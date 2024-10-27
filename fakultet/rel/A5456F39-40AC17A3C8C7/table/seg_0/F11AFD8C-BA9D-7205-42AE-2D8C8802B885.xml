@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F11AFD8C-BA9D-7205-42AE-2D8C8802B885" name="Labaratorija">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-27 10:49:41 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_31</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Labaratorija_ID" id="1196429C-CE1E-AC33-4213-1617E0380B14">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-27 10:50:00 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Poslovni_Objekat_Poslovni_Objekat_ID" id="B575EA50-89BE-ADDB-FBEB-C69DC55304DC">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-27 10:59:56 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D45645E7-685E-38AA-D7E1-98FF96046859" referredColumn="FDFB3FA1-EBDB-67F7-159F-E743FDB9EA0F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="177C1E70-E54B-53B3-1C5B-2A6A4752DBB8" name="Labaratorija_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-27 10:50:00 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1196429C-CE1E-AC33-4213-1617E0380B14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EA991CC-D991-29F6-9B7A-AE0D61988AD1" name="Labaratorija_Poslovni_Objekat_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-10-27 10:59:56 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B575EA50-89BE-ADDB-FBEB-C69DC55304DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

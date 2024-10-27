@@ -28,17 +28,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Lokacija" id="EFA75BF4-EE43-93D5-1E66-86DADE6322FF">
-<createdBy>Vukan</createdBy>
-<createdTime>2024-10-08 11:11:34 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="75FA9103-FE73-D1DA-13D2-A32D94E1D8F1" name="Fakultet_PK">
