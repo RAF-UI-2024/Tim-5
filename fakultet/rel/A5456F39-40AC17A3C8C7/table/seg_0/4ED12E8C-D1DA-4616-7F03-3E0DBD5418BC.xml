@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4ED12E8C-D1DA-4616-7F03-3E0DBD5418BC" name="Predispitne_Obaveze">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-06 10:25:43 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_36</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Broj_Poena" id="3D7E4A59-31F7-D984-4460-5C51846F7D99">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-06 10:26:39 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Studenti_Student_ID" id="00061936-B91A-2256-5849-9B7D33FDE54A">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-06 10:28:38 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0F2D7BA-1CEC-609A-9018-41D96EEA900C" referredColumn="696154AA-F9E7-8665-59B5-075F7E07F3FC"/>
+</associations>
+</Column>
+<Column name="Implementacija_Predmeta_Implementacija_Predmeta_ID" id="3672747A-F714-78A0-DF57-11997B6C3958">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-06 10:28:42 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="256BD46E-F52A-929E-CA4F-E9E0056FA5B4" referredColumn="39078D8C-656C-488F-F61F-E3B9E8B50794"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86741FA6-BF46-EAA5-230A-CB888B848BAF" name="Predispitne_Obaveze_Studenti_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-06 10:28:38 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00061936-B91A-2256-5849-9B7D33FDE54A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C32A0466-CA7D-CED4-07F1-CA6DE5C1E659" name="Predispitne_Obaveze_Implementacija_Predmeta_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-06 10:28:42 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3672747A-F714-78A0-DF57-11997B6C3958"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

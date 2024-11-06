@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F0B779D6-2E83-815D-06E0-60B463E06699" containerWithKeyObject="56512BE5-0022-0ACE-2CD8-9F79C0BC3372" localFKIndex="F45BF119-DED6-CF5B-68BA-6920BB3108EE" name="Predmet_Smer_Smerovi_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="822613C9-4A33-9541-17C2-3D76A6ECE791" containerWithKeyObject="8B068B67-66CF-1226-80BC-43CDF61CF14D" localFKIndex="1ADAA79A-906B-F8AE-381E-FCEDA262E9A4" name="Implementacija_Smera_Smerovi_FK">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-15 14:14:02 UTC</createdTime>
+<createdTime>2024-11-06 10:19:13 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <referredTableLongName>Smerovi</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

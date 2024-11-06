@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEF2FF68-3E91-243B-7C74-08020F15A58D" name="Poeni">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-06 10:31:40 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_37</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Poeni_ID" id="F8C2B1F1-0B8D-3A23-1150-11CD8F964F09">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-06 10:32:32 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_Poena" id="1334091D-8E9C-03E5-ED35-FCAC2FDA7EF5">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-06 10:32:32 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Studenti_Student_ID" id="20F3D2F0-AC5F-E39F-6981-985488A016B0">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-06 10:32:44 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="220B616D-A125-298A-EE1B-9AD170ED557C" referredColumn="696154AA-F9E7-8665-59B5-075F7E07F3FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53393AD7-23D5-07E9-93C7-820A3C6A4959" name="Poeni_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-06 10:32:41 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8C2B1F1-0B8D-3A23-1150-11CD8F964F09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57BCDB13-7022-7C67-A5AA-EE2D5CA1341B" name="Poeni_Studenti_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-06 10:32:44 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20F3D2F0-AC5F-E39F-6981-985488A016B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,37 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBE3203E-293B-C871-30E7-EC043AEC1549" name="Rezultati">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC130666-CDED-5B84-9EC4-5DD38DADC0F2" name="Kategorija_Predmeta">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-15 14:27:30 UTC</createdTime>
+<createdTime>2024-11-06 10:21:21 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
-<ordsAlias>table_25</ordsAlias>
+<ordsAlias>table_33</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Rezultati_ID" id="B198037B-6F19-7888-DA0F-A1E6C2481968">
+<Column name="Predmeti_Predmet_ID" id="24AD9A74-786C-C93B-AF4E-0002D47C6162">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-15 14:27:44 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Rezultat" id="2106D485-6F8D-2282-F714-01256BA7AEA7">
-<createdBy>pc</createdBy>
-<createdTime>2024-10-15 14:28:03 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Studenti_Student_ID" id="B464865A-6B5E-3E7B-1760-844B6106B10F">
-<createdBy>pc</createdBy>
-<createdTime>2024-10-15 14:28:47 UTC</createdTime>
+<createdTime>2024-11-06 10:22:53 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,12 +19,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="45F01AEF-357D-5A7B-8D75-ED47BB46E855" referredColumn="696154AA-F9E7-8665-59B5-075F7E07F3FC"/>
+<colAssociation fkAssociation="08F2CDFA-AFD3-A69C-5B47-BD24A250B457" referredColumn="569CEC3E-4EA7-485A-1077-9621D2B82E8A"/>
 </associations>
 </Column>
-<Column name="Ispiti_Ispit_ID" id="5F92CA3E-FDBE-12B1-FCBC-060E374541DB">
+<Column name="Obavezni_ID" id="AEEC74FC-5D77-58B6-3965-84BCEC67450F">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-15 14:28:50 UTC</createdTime>
+<createdTime>2024-11-06 10:22:55 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -54,40 +33,53 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="56103A82-026A-54FE-532F-09847790A89C" referredColumn="6266D65E-CE9B-6F3A-2EC7-A4427C0A4123"/>
+<colAssociation fkAssociation="6A5C288C-0013-7797-75F1-4D018AD011DC" referredColumn="F6C3ADFB-A0DF-9FE3-91CF-B6DBA25C08C7"/>
+</associations>
+</Column>
+<Column name="Izborni_ID" id="FBC3BF6F-81DB-E1AB-4F70-B4834C923F52">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-06 10:22:58 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1257421-0266-BA1E-FA5F-0CDBBE9DB4D2" referredColumn="440B62E1-D467-9048-6EBD-A7A3D95867EE"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="03A57D12-658E-828D-6F86-41AB15674A21" name="Rezultati_PK">
+<ind_PK_UK id="CCD9D8AB-D878-FBCF-D5B0-2CD1ECCADA3C" name="Kategorija_Predmeta_Predmeti_FK">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-15 14:28:42 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="B198037B-6F19-7888-DA0F-A1E6C2481968"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="F067DB07-0C3C-0B04-EC0B-ED007BF05706" name="Rezultati_Studenti_FK">
-<createdBy>pc</createdBy>
-<createdTime>2024-10-15 14:28:47 UTC</createdTime>
+<createdTime>2024-11-06 10:22:53 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B464865A-6B5E-3E7B-1760-844B6106B10F"/>
+<colUsage columnID="24AD9A74-786C-C93B-AF4E-0002D47C6162"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9E031FF5-314B-DD21-6060-9C1C95733238" name="Rezultati_Ispiti_FK">
+<ind_PK_UK id="12EF04CB-DAE7-BADF-919B-9B5609339EA6" name="Kategorija_Predmeta_Obavezni_FK">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-15 14:28:50 UTC</createdTime>
+<createdTime>2024-11-06 10:22:55 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5F92CA3E-FDBE-12B1-FCBC-060E374541DB"/>
+<colUsage columnID="AEEC74FC-5D77-58B6-3965-84BCEC67450F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6484BE26-27AB-FC02-A63E-0606BDA86012" name="Kategorija_Predmeta_Izborni_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-06 10:22:58 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBC3BF6F-81DB-E1AB-4F70-B4834C923F52"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -22,7 +22,6 @@
 <createdBy>pc</createdBy>
 <createdTime>2024-10-15 14:03:25 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -33,7 +32,6 @@
 <createdBy>pc</createdBy>
 <createdTime>2024-10-15 14:03:25 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -44,7 +42,6 @@
 <createdBy>pc</createdBy>
 <createdTime>2024-10-15 14:03:25 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -55,10 +52,19 @@
 <createdBy>pc</createdBy>
 <createdTime>2024-10-15 14:03:25 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Zaposlenja" id="034C61CB-3BA7-72E3-F04C-1C37D02E56CF">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-06 10:16:32 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

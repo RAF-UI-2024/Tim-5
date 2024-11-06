@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56512BE5-0022-0ACE-2CD8-9F79C0BC3372" name="Predmet_Smer">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16825408-1F88-0500-42F6-F1BD19A8B3AF" name="Predmet_Semestar">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-15 14:13:47 UTC</createdTime>
+<createdTime>2024-11-06 10:19:43 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
-<ordsAlias>table_19</ordsAlias>
+<ordsAlias>table_32</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Predmeti_Predmet_ID" id="16150D63-87D2-A360-F720-1E7274EFE5B1">
+<Column name="Semestar_Semestar_ID" id="30A621BA-34D3-4944-D6B0-C3665ACF5235">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-15 14:14:05 UTC</createdTime>
+<createdTime>2024-11-06 10:20:33 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,12 +19,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="A54D5C8E-3F53-0EF8-B17C-3AD3BB50BD2A" referredColumn="569CEC3E-4EA7-485A-1077-9621D2B82E8A"/>
+<colAssociation fkAssociation="216EAF09-ADE7-5B26-B72E-42EE026E3AF4" referredColumn="148D82D9-42F5-143B-9A33-10D886627AA1"/>
 </associations>
 </Column>
-<Column name="Implementacija_Smera_Implementacija_Smera_ID" id="462888A6-9D9E-B637-BBD5-C6CE302433FB">
+<Column name="Predmeti_Predmet_ID" id="72041941-7336-B64E-4F7B-D74C1D893A21">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-06 10:19:33 UTC</createdTime>
+<createdTime>2024-11-06 10:20:38 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,29 +33,29 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="BD02E87F-0283-A77F-6F11-BEEB916C8AAE" referredColumn="FF4BC5A6-DC7F-1318-5E59-95E590957F92"/>
+<colAssociation fkAssociation="31FE3FD4-B906-0043-843F-687E6512E4E7" referredColumn="569CEC3E-4EA7-485A-1077-9621D2B82E8A"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="B67C0B09-8AD7-68E5-01BD-5986A1D90BC5" name="Predmet_Smer_Predmeti_FK">
+<ind_PK_UK id="36100647-ED44-2D7F-B781-ABC3C1672832" name="Predmet_Semestar_Semestar_FK">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-15 14:14:05 UTC</createdTime>
+<createdTime>2024-11-06 10:20:33 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="16150D63-87D2-A360-F720-1E7274EFE5B1"/>
+<colUsage columnID="30A621BA-34D3-4944-D6B0-C3665ACF5235"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="103FF8B3-62E0-7147-901A-A49E21F971D0" name="Predmet_Smer_Implementacija_Smera_FK">
+<ind_PK_UK id="72E4DC1E-8D83-ECE0-E13F-1053323FB76D" name="Predmet_Semestar_Predmeti_FK">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-06 10:19:33 UTC</createdTime>
+<createdTime>2024-11-06 10:20:38 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="462888A6-9D9E-B637-BBD5-C6CE302433FB"/>
+<colUsage columnID="72041941-7336-B64E-4F7B-D74C1D893A21"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

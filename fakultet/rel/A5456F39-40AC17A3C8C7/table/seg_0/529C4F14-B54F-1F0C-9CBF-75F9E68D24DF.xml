@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="529C4F14-B54F-1F0C-9CBF-75F9E68D24DF" name="Izborni">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-06 10:22:35 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_35</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="440B62E1-D467-9048-6EBD-A7A3D95867EE">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-06 10:22:49 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40C2D0BC-C0C3-ECA0-FF8C-08E55F4FACF1" name="Izborni_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-06 10:22:49 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="440B62E1-D467-9048-6EBD-A7A3D95867EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
