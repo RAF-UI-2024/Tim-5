@@ -1,40 +1,25 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8459CDA1-C0F1-57C3-A903-1A29CCCF4A01" name="Poslovni_Objekat">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6707346-A22C-0BCE-5712-D9DC1F4F26BD" name="Placanje">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-27 10:48:48 UTC</createdTime>
+<createdTime>2024-11-10 15:43:29 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
-<ordsAlias>table_29</ordsAlias>
+<ordsAlias>table_42</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Poslovni_Objekat_ID" id="FDFB3FA1-EBDB-67F7-159F-E743FDB9EA0F">
+<Column name="Placanje_ID" id="D262B43D-3695-8D5E-11FC-E0E418854F29">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-27 10:49:05 UTC</createdTime>
+<createdTime>2024-11-10 15:43:41 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Fakulteti_Fakultet_ID" id="1EBEF662-4AD0-4A4D-3009-F3EB7EB5659C">
+<Column name="Upis_Upis_ID" id="FCE35A94-74F0-FBC5-A238-42124B4D9570">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-27 10:55:12 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="8CA0DA1B-1835-7591-5E14-37F5F36EA81D" referredColumn="AB623E93-E9AE-E7C0-00E2-28EA9F81EA8C"/>
-</associations>
-</Column>
-<Column name="Lokacija_Lokacija_ID" id="F91E8A05-94B9-CCE8-79F1-FBD683B52408">
-<createdBy>pc</createdBy>
-<createdTime>2024-10-27 10:55:53 UTC</createdTime>
+<createdTime>2024-11-10 15:43:48 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,13 +28,25 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="16D682BC-B219-0606-F5B7-7F401CE81362" referredColumn="F19E5086-34BC-0418-F769-637897AFAB7C"/>
+<colAssociation fkAssociation="56C66D02-2A2E-6855-FD23-7C1F608D9CE0" referredColumn="D33767E0-0990-470D-5F3E-28790C7FEAEF"/>
 </associations>
 </Column>
-<Column name="Aktivan" id="47651C02-239E-1ACA-D756-E7E823E4A5ED">
+<Column name="Iznos" id="35626F7A-98AC-01C4-C770-1CAD5CF78FDF">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:21:28 UTC</createdTime>
+<createdTime>2024-11-10 15:45:01 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rate" id="F9E79A04-5017-5FDE-6D36-2C2AA5D0B33F">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-10 15:45:01 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
@@ -59,35 +56,25 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="0DC904B2-C7BE-9118-8646-C2E58A26157F" name="Poslovni_Objekat_PK">
+<ind_PK_UK id="0577A12B-38F9-8E3C-4AD9-1EE1EB532D4E" name="Placanje_PK">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-27 10:49:05 UTC</createdTime>
+<createdTime>2024-11-10 15:43:41 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="FDFB3FA1-EBDB-67F7-159F-E743FDB9EA0F"/>
+<colUsage columnID="D262B43D-3695-8D5E-11FC-E0E418854F29"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EBF34A91-5FCE-36A2-E799-1FCC3AB2FCF1" name="Poslovni_Objekat_Fakulteti_FK">
+<ind_PK_UK id="EBE8A7A4-570A-1C60-55B1-7FF86487A33D" name="Placanje_Upis_FK">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-27 10:55:12 UTC</createdTime>
+<createdTime>2024-11-10 15:43:48 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1EBEF662-4AD0-4A4D-3009-F3EB7EB5659C"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="0BF851F5-08E0-E34D-FFC3-CEE71D45CD5C" name="Poslovni_Objekat_Lokacija_FK">
-<createdBy>pc</createdBy>
-<createdTime>2024-10-27 10:55:53 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="F91E8A05-94B9-CCE8-79F1-FBD683B52408"/>
+<colUsage columnID="FCE35A94-74F0-FBC5-A238-42124B4D9570"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

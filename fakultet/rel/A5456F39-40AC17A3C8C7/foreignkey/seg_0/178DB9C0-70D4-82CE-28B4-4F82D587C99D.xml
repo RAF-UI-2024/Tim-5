@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D7465F62-BC02-3D4C-EC69-E0223CD3F25D" containerWithKeyObject="510FA28A-C971-5944-E8E9-B2C87D943BE2" localFKIndex="4617420B-A159-BF06-CB9D-A2ABEF70F148" name="Semestar_Fakulteti_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="178DB9C0-70D4-82CE-28B4-4F82D587C99D" containerWithKeyObject="72E49201-6B99-F113-9193-7445E8891878" localFKIndex="A8B50CCA-B347-1750-CE3D-33F5BB29993F" name="Godina_Fakulteti_FK">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-15 14:17:43 UTC</createdTime>
+<createdTime>2024-11-10 15:23:03 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <referredTableLongName>Fakulteti</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

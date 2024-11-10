@@ -1,27 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72E49201-6B99-F113-9193-7445E8891878" name="Godina">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77346EF1-BFF9-5C77-98FB-2A8285D593DC" name="Stipendija">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-15 14:21:25 UTC</createdTime>
+<createdTime>2024-11-10 15:45:43 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
-<ordsAlias>table_23</ordsAlias>
+<ordsAlias>table_45</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Godina" id="3FF8F260-2C16-44F3-4137-54A0B5D4843E">
+<Column name="Stipendija_ID" id="BF007561-CFA4-B8AD-08CA-EF7120A81B1E">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-15 14:21:56 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Godina_ID" id="57EA5F0A-1E06-E9C8-AA2B-6A8E6AFA39C1">
-<createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:22:46 UTC</createdTime>
+<createdTime>2024-11-10 15:46:04 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Fakulteti_Fakultet_ID" id="9EE196C0-A113-CFE1-CDDD-585028F904B1">
+<Column name="Upis_Upis_ID" id="6DF3991A-0A8F-33B4-66B5-7DF650498E7F">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:23:03 UTC</createdTime>
+<createdTime>2024-11-10 15:46:12 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,30 +29,41 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="178DB9C0-70D4-82CE-28B4-4F82D587C99D" referredColumn="AB623E93-E9AE-E7C0-00E2-28EA9F81EA8C"/>
+<colAssociation fkAssociation="C9658A34-1C5D-4B73-9BA4-A439DDB3A65F" referredColumn="D33767E0-0990-470D-5F3E-28790C7FEAEF"/>
 </associations>
+</Column>
+<Column name="Vrednost_Stipendije" id="2F380003-FCD4-B4C4-9C55-ABAFBA598DCA">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-10 15:46:50 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="605DD585-70AA-951C-CC57-50E84D987149" name="Godina_PK">
+<ind_PK_UK id="B754CD51-5369-9375-C697-2D79A8676FE3" name="Stipendija_PK">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:23:12 UTC</createdTime>
+<createdTime>2024-11-10 15:46:09 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="57EA5F0A-1E06-E9C8-AA2B-6A8E6AFA39C1"/>
+<colUsage columnID="BF007561-CFA4-B8AD-08CA-EF7120A81B1E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A8B50CCA-B347-1750-CE3D-33F5BB29993F" name="Godina_Fakulteti_FK">
+<ind_PK_UK id="6901A64C-BCDA-1EBA-778E-E32D2B45DAE4" name="Stipendija_Upis_FK">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:23:03 UTC</createdTime>
+<createdTime>2024-11-10 15:46:12 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9EE196C0-A113-CFE1-CDDD-585028F904B1"/>
+<colUsage columnID="6DF3991A-0A8F-33B4-66B5-7DF650498E7F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

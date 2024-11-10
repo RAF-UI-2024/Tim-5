@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75E6FF93-AC83-58D8-2BC9-275384D2278A" name="Pod_Zakupom">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75E6FF93-AC83-58D8-2BC9-275384D2278A" name="Ugovor_O_Zakupu">
 <createdBy>pc</createdBy>
 <createdTime>2024-10-27 10:57:34 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
@@ -8,25 +8,10 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Lokacija_Lokacija_ID" id="7C612CAE-36AE-EE14-6941-2F9D1180AD7F">
-<createdBy>pc</createdBy>
-<createdTime>2024-10-27 10:57:44 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="D5E0BC81-6258-BDF4-3D87-9CD9F6EEB7F6" referredColumn="F19E5086-34BC-0418-F769-637897AFAB7C"/>
-</associations>
-</Column>
 <Column name="Renta" id="D2158339-E3C0-C6D8-59F6-6A238A9A7CD1">
 <createdBy>pc</createdBy>
 <createdTime>2024-10-27 10:58:05 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
@@ -37,34 +22,56 @@
 <createdBy>pc</createdBy>
 <createdTime>2024-10-27 10:58:12 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Datum_Zakupa" id="F34ED1A1-2751-403A-41F4-74541C141214">
+<Column name="Datum_Do" id="F34ED1A1-2751-403A-41F4-74541C141214">
 <createdBy>pc</createdBy>
 <createdTime>2024-10-27 10:58:30 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Trajanje_OD" id="81D230EB-B5FA-A594-47DC-B689241641BE">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-10 15:19:01 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tip_Lokacije_Tip_Loackije_ID" id="90ACD171-2A12-C80E-0A7F-E7E3431710C8">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-10 15:20:36 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B024E47-B6D4-0FD7-1942-E68BA1E49D78" referredColumn="506949B0-DF27-E177-8C71-B10836D9D134"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="8BA07D58-F3A8-8BB4-BA19-FC0618E6610F" name="Pod_Zakupom_Lokacija_FK">
+<ind_PK_UK id="5E1B3F79-29B7-3513-68B1-C783A003D75D" name="Ugovor_O_Zakupu_Tip_Lokacije_FK">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-27 10:57:44 UTC</createdTime>
+<createdTime>2024-11-10 15:20:36 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7C612CAE-36AE-EE14-6941-2F9D1180AD7F"/>
+<colUsage columnID="90ACD171-2A12-C80E-0A7F-E7E3431710C8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

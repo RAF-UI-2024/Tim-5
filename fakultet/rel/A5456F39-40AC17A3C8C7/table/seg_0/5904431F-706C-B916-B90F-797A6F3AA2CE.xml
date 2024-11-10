@@ -1,27 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72E49201-6B99-F113-9193-7445E8891878" name="Godina">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5904431F-706C-B916-B90F-797A6F3AA2CE" name="Studentska_Sluzba">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-15 14:21:25 UTC</createdTime>
+<createdTime>2024-11-10 15:40:40 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
-<ordsAlias>table_23</ordsAlias>
+<ordsAlias>table_39</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Godina" id="3FF8F260-2C16-44F3-4137-54A0B5D4843E">
+<Column name="Studentska_Sluzba_ID" id="854F611D-5EBB-0C0D-94D9-7775F3D8AA57">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-15 14:21:56 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Godina_ID" id="57EA5F0A-1E06-E9C8-AA2B-6A8E6AFA39C1">
-<createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:22:46 UTC</createdTime>
+<createdTime>2024-11-10 15:41:11 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Fakulteti_Fakultet_ID" id="9EE196C0-A113-CFE1-CDDD-585028F904B1">
+<Column name="Sekretarijat_Sekretarikat_ID" id="58298AA1-6F9A-9043-802C-1F2055B75360">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:23:03 UTC</createdTime>
+<createdTime>2024-11-10 15:41:50 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,30 +29,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="178DB9C0-70D4-82CE-28B4-4F82D587C99D" referredColumn="AB623E93-E9AE-E7C0-00E2-28EA9F81EA8C"/>
+<colAssociation fkAssociation="9FEA656B-B587-7049-7085-76B9C0E29E99" referredColumn="90C66046-64A8-0714-E38B-FFF43F6BD8B8"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="605DD585-70AA-951C-CC57-50E84D987149" name="Godina_PK">
+<ind_PK_UK id="0D7FDF0D-2533-AE18-30A6-00D5F738E3F2" name="Studentska_Sluzba_PK">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:23:12 UTC</createdTime>
+<createdTime>2024-11-10 15:41:11 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="57EA5F0A-1E06-E9C8-AA2B-6A8E6AFA39C1"/>
+<colUsage columnID="854F611D-5EBB-0C0D-94D9-7775F3D8AA57"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A8B50CCA-B347-1750-CE3D-33F5BB29993F" name="Godina_Fakulteti_FK">
+<ind_PK_UK id="10F7A5BB-6515-403F-093B-561A23B614D5" name="Studentska_Sluzba_Sekretarijat_FK">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:23:03 UTC</createdTime>
+<createdTime>2024-11-10 15:41:50 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9EE196C0-A113-CFE1-CDDD-585028F904B1"/>
+<colUsage columnID="58298AA1-6F9A-9043-802C-1F2055B75360"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

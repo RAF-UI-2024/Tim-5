@@ -8,9 +8,9 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Lokacija_Lokacija_ID" id="4F3AAAB1-E7DA-A5CB-38E6-9E1C4C7D6C1F">
+<Column name="Tip_Lokacije_Tip_Loackije_ID" id="8797BA1C-2763-DA5C-7021-A463902A2A5E">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-27 10:57:30 UTC</createdTime>
+<createdTime>2024-11-10 15:20:34 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,19 +19,19 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="333F1360-A7E9-D81D-D5A9-65C0B797D043" referredColumn="F19E5086-34BC-0418-F769-637897AFAB7C"/>
+<colAssociation fkAssociation="86B58733-0B98-2B03-A113-25FA5BB7FFB0" referredColumn="506949B0-DF27-E177-8C71-B10836D9D134"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="BB7F5351-484E-3A5B-863F-27C1DE25C2E4" name="Pod_Vlasnistvom_Lokacija_FK">
+<ind_PK_UK id="2074EACB-27BC-291F-0D7E-AF21577C47FA" name="Pod_Vlasnistvom_Tip_Lokacije_FK">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-27 10:57:30 UTC</createdTime>
+<createdTime>2024-11-10 15:20:34 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4F3AAAB1-E7DA-A5CB-38E6-9E1C4C7D6C1F"/>
+<colUsage columnID="8797BA1C-2763-DA5C-7021-A463902A2A5E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

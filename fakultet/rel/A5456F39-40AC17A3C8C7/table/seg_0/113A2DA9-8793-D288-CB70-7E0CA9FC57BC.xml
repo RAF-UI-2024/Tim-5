@@ -8,20 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Fakultet_ID" id="29F7B5FA-1C44-A87A-A955-C172FD876DEC">
-<createdBy>Vukan</createdBy>
-<createdTime>2024-10-08 11:42:51 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="6B7024A9-C125-2E9F-F982-B012C07923F2" referredColumn="AB623E93-E9AE-E7C0-00E2-28EA9F81EA8C"/>
-</associations>
-</Column>
 <Column name="Datum_zaposlenja" id="381A9CD9-9149-1E87-C268-0F206E5CC66F">
 <createdBy>Vukan</createdBy>
 <createdTime>2024-10-08 11:43:49 UTC</createdTime>
@@ -47,6 +33,7 @@
 <createdBy>pc</createdBy>
 <createdTime>2024-10-15 13:54:52 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -56,18 +43,22 @@
 <colAssociation fkAssociation="F5036D17-2F80-0B91-ECB0-749845632AE7" referredColumn="CD37E4B7-2ADF-B9C7-D04D-2AF6F7817AFF"/>
 </associations>
 </Column>
+<Column name="Sekretarijat_Sekretarikat_ID" id="3418BDCF-50E5-83D2-2298-E49F632F5AD1">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-10 15:39:02 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91FBEA7B-5549-A4AB-2EDA-1F70F418E650" referredColumn="90C66046-64A8-0714-E38B-FFF43F6BD8B8"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="FECF2D41-763C-E238-924C-6B6F9DA38122" name="Fakulteti_FK">
-<createdBy>Vukan</createdBy>
-<createdTime>2024-10-08 11:42:51 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="29F7B5FA-1C44-A87A-A955-C172FD876DEC"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="6DD2B0D1-C215-5145-BC5A-2719D1502754" name="Zaposleni_Fakultet_Zaposleni_FK">
 <createdBy>pc</createdBy>
 <createdTime>2024-10-15 13:54:52 UTC</createdTime>
@@ -76,6 +67,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="46249C9C-04E2-0C37-FE1E-631D9FE2ABAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4155F729-1FD4-C5A0-2C08-7EBBBFDB6C85" name="Zaposleni_Fakultet_Sekretarijat_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-10 15:39:02 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3418BDCF-50E5-83D2-2298-E49F632F5AD1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

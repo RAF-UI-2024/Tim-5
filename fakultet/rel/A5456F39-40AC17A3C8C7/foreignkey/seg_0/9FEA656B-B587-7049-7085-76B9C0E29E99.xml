@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9FEA656B-B587-7049-7085-76B9C0E29E99" containerWithKeyObject="5904431F-706C-B916-B90F-797A6F3AA2CE" localFKIndex="10F7A5BB-6515-403F-093B-561A23B614D5" name="Studentska_Sluzba_Sekretarijat_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-10 15:41:50 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<referredTableLongName>Sekretarijat</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CD98F322-E55D-5944-96F4-DE07BA854605</referredTableID>
+<keyObject>6C835C15-ECFB-665C-A6A2-963B25316735</keyObject>
+<referredKeyID>6C835C15-ECFB-665C-A6A2-963B25316735</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Sekretarikat_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

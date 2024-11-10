@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B068B67-66CF-1226-80BC-43CDF61CF14D" name="Implementacija_Smera">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="793D4CA9-FB21-8E80-537D-F28DE041AC68" name="Upis">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-06 10:17:26 UTC</createdTime>
+<createdTime>2024-11-10 15:42:40 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
-<ordsAlias>table_31</ordsAlias>
+<ordsAlias>table_41</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Implementacija_Smera_ID" id="FF4BC5A6-DC7F-1318-5E59-95E590957F92">
+<Column name="Upis_ID" id="D33767E0-0990-470D-5F3E-28790C7FEAEF">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-06 10:18:00 UTC</createdTime>
+<createdTime>2024-11-10 15:42:58 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,29 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Datum_Od" id="86D19DCD-8A65-7485-060E-A6CBC46A2946">
+<Column name="Studenti_Student_ID" id="91D54BD4-BAE9-9C31-2FE8-4EF43A4D23D0">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-06 10:18:52 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Datum_Do" id="5241DF97-9506-CFA4-4227-7E5678A5613C">
-<createdBy>pc</createdBy>
-<createdTime>2024-11-06 10:18:52 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Semestar_Smer_Semestar_Smer_ID" id="2D9DDA85-5787-2971-4438-C3B40914E681">
-<createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:27:59 UTC</createdTime>
+<createdTime>2024-11-10 15:43:13 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,12 +29,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="85980592-5FC0-DC14-7686-5E918ECC44F1" referredColumn="BA1EAFA0-3BB7-9174-18F5-E6D198D714B2"/>
+<colAssociation fkAssociation="437301E9-5C10-1E24-A866-1E4791135AA9" referredColumn="696154AA-F9E7-8665-59B5-075F7E07F3FC"/>
 </associations>
 </Column>
-<Column name="Studenti_Student_ID" id="33E6504B-47FB-D41F-D3DB-FEA1EEEACCCE">
+<Column name="Studentska_Sluzba_Studentska_Sluzba_ID" id="7987FA83-0308-DB5E-A590-17FC9B54039E">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:30:17 UTC</createdTime>
+<createdTime>2024-11-10 15:43:22 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -63,40 +43,64 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="808CE5CB-340F-32D6-ABFB-7F6F014C8A33" referredColumn="696154AA-F9E7-8665-59B5-075F7E07F3FC"/>
+<colAssociation fkAssociation="86FC7388-1D18-481F-E685-7A267F6E11BB" referredColumn="854F611D-5EBB-0C0D-94D9-7775F3D8AA57"/>
+</associations>
+</Column>
+<Column name="Godina_Godina_ID" id="4B2525E2-036B-2AFC-2DA8-6F46E08967FD">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-10 15:47:43 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86BCA1F5-187D-0E83-3D92-CE41FC7683EA" referredColumn="57EA5F0A-1E06-E9C8-AA2B-6A8E6AFA39C1"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="70513063-88FB-1E42-97A2-569ECD605179" name="Implementacija_Smera_PK">
+<ind_PK_UK id="6DE94F1F-A6DB-2AF0-2CFF-A59E0D3B16F4" name="Upis_PK">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-06 10:18:00 UTC</createdTime>
+<createdTime>2024-11-10 15:43:02 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="FF4BC5A6-DC7F-1318-5E59-95E590957F92"/>
+<colUsage columnID="D33767E0-0990-470D-5F3E-28790C7FEAEF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3E870F09-42FE-95A3-E27B-0A97DA3BAC73" name="Implementacija_Smera_Semestar_Smer_FK">
+<ind_PK_UK id="20F42B15-99F0-B333-9870-67E631F881F9" name="Upis_Studenti_FK">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:27:59 UTC</createdTime>
+<createdTime>2024-11-10 15:43:13 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="2D9DDA85-5787-2971-4438-C3B40914E681"/>
+<colUsage columnID="91D54BD4-BAE9-9C31-2FE8-4EF43A4D23D0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CD81470D-F7A7-995D-9BB8-DC58E729A7FE" name="Implementacija_Smera_Studenti_FK">
+<ind_PK_UK id="9E66BEED-01AB-D3A7-4398-7663754A9700" name="Upis_Studentska_Sluzba_FK">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:30:17 UTC</createdTime>
+<createdTime>2024-11-10 15:43:22 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="33E6504B-47FB-D41F-D3DB-FEA1EEEACCCE"/>
+<colUsage columnID="7987FA83-0308-DB5E-A590-17FC9B54039E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D25DEBA0-A53C-2535-1334-96B69A12339F" name="Upis_Godina_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-10 15:47:43 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B2525E2-036B-2AFC-2DA8-6F46E08967FD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

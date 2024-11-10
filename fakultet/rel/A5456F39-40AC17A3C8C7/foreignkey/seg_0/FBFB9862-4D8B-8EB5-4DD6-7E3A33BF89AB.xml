@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FBFB9862-4D8B-8EB5-4DD6-7E3A33BF89AB" containerWithKeyObject="510FA28A-C971-5944-E8E9-B2C87D943BE2" localFKIndex="B370E776-D2FA-A8B0-9350-B4869494DDFF" name="Semestar_Godina_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-10 15:23:19 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<referredTableLongName>Godina</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>72E49201-6B99-F113-9193-7445E8891878</referredTableID>
+<keyObject>605DD585-70AA-951C-CC57-50E84D987149</keyObject>
+<referredKeyID>605DD585-70AA-951C-CC57-50E84D987149</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Godina_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

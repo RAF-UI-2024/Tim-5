@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Fakulteti_Fakultet_ID" id="F793C3C2-0104-0918-2F4F-0EFF5C33C0CF">
+<Column name="Godina_Godina_ID" id="71AAB35E-C8FF-3B0F-4423-97FE06F6F436">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-15 14:17:43 UTC</createdTime>
+<createdTime>2024-11-10 15:23:19 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,8 +29,19 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="D7465F62-BC02-3D4C-EC69-E0223CD3F25D" referredColumn="AB623E93-E9AE-E7C0-00E2-28EA9F81EA8C"/>
+<colAssociation fkAssociation="FBFB9862-4D8B-8EB5-4DD6-7E3A33BF89AB" referredColumn="57EA5F0A-1E06-E9C8-AA2B-6A8E6AFA39C1"/>
 </associations>
+</Column>
+<Column name="Semestar" id="6E17AFA7-D8C9-12CE-21CC-3427C10C0D24">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-10 15:23:53 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -45,14 +56,14 @@
 <colUsage columnID="148D82D9-42F5-143B-9A33-10D886627AA1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4617420B-A159-BF06-CB9D-A2ABEF70F148" name="Semestar_Fakulteti_FK">
+<ind_PK_UK id="B370E776-D2FA-A8B0-9350-B4869494DDFF" name="Semestar_Godina_FK">
 <createdBy>pc</createdBy>
-<createdTime>2024-10-15 14:17:43 UTC</createdTime>
+<createdTime>2024-11-10 15:23:19 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F793C3C2-0104-0918-2F4F-0EFF5C33C0CF"/>
+<colUsage columnID="71AAB35E-C8FF-3B0F-4423-97FE06F6F436"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

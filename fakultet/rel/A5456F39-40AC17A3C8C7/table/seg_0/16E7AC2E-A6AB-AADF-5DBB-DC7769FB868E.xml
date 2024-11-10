@@ -22,20 +22,6 @@
 <colAssociation fkAssociation="126AAD78-EC2F-8249-797A-EA4D07D30908" referredColumn="696154AA-F9E7-8665-59B5-075F7E07F3FC"/>
 </associations>
 </Column>
-<Column name="Predmet_ID" id="B9C705D4-8574-B145-CA5F-E645D6AF0DD2">
-<createdBy>Vukan</createdBy>
-<createdTime>2024-10-08 11:54:03 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="57E9D247-7B9A-9303-5C75-077F00425B7B" referredColumn="569CEC3E-4EA7-485A-1077-9621D2B82E8A"/>
-</associations>
-</Column>
 <Column name="Godina_slusanja" id="8BB98F82-B670-6B6C-A649-F035C77B1117">
 <createdBy>Vukan</createdBy>
 <createdTime>2024-10-08 11:55:12 UTC</createdTime>
@@ -55,6 +41,20 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Implementacija_Predmeta_Implementacija_Predmeta_ID" id="9400E364-4B13-DCA0-7697-1A5CD60F01F3">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-10 15:32:44 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="507F209B-5831-0390-6787-C8CD0FABB506" referredColumn="39078D8C-656C-488F-F61F-E3B9E8B50794"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -76,14 +76,14 @@
 <colUsage columnID="2BD3D275-528E-6CFE-F203-DD44FABC215A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="58E8D828-64C7-46FF-9D75-9FE1FA8BA9A6" name="Predmeti_FK">
-<createdBy>Vukan</createdBy>
-<createdTime>2024-10-08 11:54:03 UTC</createdTime>
+<ind_PK_UK id="633024D6-33E3-EE84-919D-0D80216A07EF" name="Predmet_Student_Implementacija_Predmeta_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-10 15:32:44 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B9C705D4-8574-B145-CA5F-E645D6AF0DD2"/>
+<colUsage columnID="9400E364-4B13-DCA0-7697-1A5CD60F01F3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

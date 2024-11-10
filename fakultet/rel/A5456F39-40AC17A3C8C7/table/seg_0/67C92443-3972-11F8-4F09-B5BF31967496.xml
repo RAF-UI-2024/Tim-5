@@ -1,16 +1,27 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC130666-CDED-5B84-9EC4-5DD38DADC0F2" name="Kategorija_Predmeta">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67C92443-3972-11F8-4F09-B5BF31967496" name="Tetkica">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-06 10:21:21 UTC</createdTime>
+<createdTime>2024-11-10 15:49:42 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
-<ordsAlias>table_33</ordsAlias>
+<ordsAlias>table_47</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Predmeti_Predmet_ID" id="24AD9A74-786C-C93B-AF4E-0002D47C6162">
+<Column name="Tetkica_ID" id="4AEDA53F-F32E-B3C6-5A84-14012CF5E228">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-06 10:22:53 UTC</createdTime>
+<createdTime>2024-11-10 15:50:03 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zaposleni_Zapolseni_ID" id="E411F70A-907C-C9B8-F904-F1CD68AF2E6A">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-10 15:51:00 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,31 +30,19 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="08F2CDFA-AFD3-A69C-5B47-BD24A250B457" referredColumn="569CEC3E-4EA7-485A-1077-9621D2B82E8A"/>
+<colAssociation fkAssociation="9B9879A3-70E1-56BA-A4F1-C9CE8E70BC27" referredColumn="CD37E4B7-2ADF-B9C7-D04D-2AF6F7817AFF"/>
 </associations>
-</Column>
-<Column name="Obavezni" id="BD0B5C64-E494-D88F-5B30-150E7C7E4CDF">
-<createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:14:43 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="CCD9D8AB-D878-FBCF-D5B0-2CD1ECCADA3C" name="Kategorija_Predmeta_Predmeti_FK">
+<ind_PK_UK id="3B9D3F14-C25B-BDCE-3B5C-06194C23B069" name="Tetkica_Zaposleni_FK">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-06 10:22:53 UTC</createdTime>
+<createdTime>2024-11-10 15:51:00 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="24AD9A74-786C-C93B-AF4E-0002D47C6162"/>
+<colUsage columnID="E411F70A-907C-C9B8-F904-F1CD68AF2E6A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
