@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4F1B472-0649-7056-39EB-3FF4C7093113" name="Stipendija_Od_Drzave">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-28 13:19:42 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_52</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tip_Stipendije_Tip_Stipendije_ID" id="E9C694E6-2A87-51D0-EFFC-32ADAD87AB98">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-28 13:20:24 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AFCB6D7-2318-5FB8-540A-6D0F1FF47395" referredColumn="C70F949D-0C74-AF38-758C-D0EB1DA035FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5871AF49-E7A1-2AF3-8AC5-04AAEA9C60D6" name="Stipendija_Od_Drzave_Tip_Stipendije_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-28 13:20:24 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9C694E6-2A87-51D0-EFFC-32ADAD87AB98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

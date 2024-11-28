@@ -8,20 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Predmeti_Predmet_ID" id="24AD9A74-786C-C93B-AF4E-0002D47C6162">
-<createdBy>pc</createdBy>
-<createdTime>2024-11-06 10:22:53 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="08F2CDFA-AFD3-A69C-5B47-BD24A250B457" referredColumn="569CEC3E-4EA7-485A-1077-9621D2B82E8A"/>
-</associations>
-</Column>
 <Column name="Obavezni" id="BD0B5C64-E494-D88F-5B30-150E7C7E4CDF">
 <createdBy>pc</createdBy>
 <createdTime>2024-11-10 15:14:43 UTC</createdTime>
@@ -34,16 +20,30 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Implementacija_Predmeta_Implementacija_Predmeta_ID" id="83669870-5582-D721-2B91-9A95C75802FD">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-28 13:23:09 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEB35DA0-F4B0-7300-2DA3-3951EE459685" referredColumn="39078D8C-656C-488F-F61F-E3B9E8B50794"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="CCD9D8AB-D878-FBCF-D5B0-2CD1ECCADA3C" name="Kategorija_Predmeta_Predmeti_FK">
+<ind_PK_UK id="FCB67025-0D53-C3F5-10EA-D79347004740" name="Kategorija_Predmeta_Implementacija_Predmeta_FK">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-06 10:22:53 UTC</createdTime>
+<createdTime>2024-11-28 13:23:09 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="24AD9A74-786C-C93B-AF4E-0002D47C6162"/>
+<colUsage columnID="83669870-5582-D721-2B91-9A95C75802FD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

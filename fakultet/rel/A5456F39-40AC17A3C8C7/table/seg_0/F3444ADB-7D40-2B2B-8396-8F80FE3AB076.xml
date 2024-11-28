@@ -47,8 +47,29 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Student_Smer" id="8E8A9D0C-6382-7BED-2450-CDDD5B237CD1">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-28 13:15:19 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FDE18980-EC50-EFEB-C215-03DDA4760FF0" name="Student_Smer_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-28 13:15:19 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E8A9D0C-6382-7BED-2450-CDDD5B237CD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="DA7419FB-6F2A-765E-7B69-032803C384CB" name="Student_Smer_Smerovi_FK">
 <createdBy>pc</createdBy>
 <createdTime>2024-10-15 14:19:12 UTC</createdTime>

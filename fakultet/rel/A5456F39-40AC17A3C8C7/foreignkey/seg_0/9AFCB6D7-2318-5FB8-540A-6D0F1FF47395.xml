@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9AFCB6D7-2318-5FB8-540A-6D0F1FF47395" containerWithKeyObject="F4F1B472-0649-7056-39EB-3FF4C7093113" localFKIndex="5871AF49-E7A1-2AF3-8AC5-04AAEA9C60D6" name="Stipendija_Od_Drzave_Tip_Stipendije_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-28 13:20:24 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<referredTableLongName>Tip_Stipendije</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CE3D553F-B94B-8A78-FD38-8F2401477BAA</referredTableID>
+<keyObject>B8174E3F-3B48-C2BE-0E9F-DF288E419083</keyObject>
+<referredKeyID>B8174E3F-3B48-C2BE-0E9F-DF288E419083</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Tip_Stipendije_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

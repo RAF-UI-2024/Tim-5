@@ -1,26 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5904431F-706C-B916-B90F-797A6F3AA2CE" name="Studentska_Sluzba">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A18F9EB-B5AB-1A4D-2FC0-AD4E1A8E4C4A" name="Zaposleni_Sekretarijat">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:40:40 UTC</createdTime>
+<createdTime>2024-11-28 13:06:27 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
-<ordsAlias>table_39</ordsAlias>
+<ordsAlias>table_44</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Studentska_Sluzba_ID" id="854F611D-5EBB-0C0D-94D9-7775F3D8AA57">
+<Column name="Sekretarijat_Sekretarikat_ID" id="8E8C76EA-1162-052E-4E59-5C0D75FE25B9">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:41:11 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Fakulteti_Fakultet_ID" id="A3C68944-E685-15A4-A9C8-61EEEC8B2E5A">
-<createdBy>pc</createdBy>
-<createdTime>2024-11-28 13:09:52 UTC</createdTime>
+<createdTime>2024-11-28 13:07:18 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,30 +19,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="530B02F6-4B12-212E-A7BF-BF7A671F5369" referredColumn="AB623E93-E9AE-E7C0-00E2-28EA9F81EA8C"/>
+<colAssociation fkAssociation="61DDE48A-73BB-049D-5A70-74D9E5EF19FB" referredColumn="90C66046-64A8-0714-E38B-FFF43F6BD8B8"/>
+</associations>
+</Column>
+<Column name="Zaposleni_Fakultet_Zaposleni_fakultet_ID" id="CCD87642-E617-F888-4A7F-DAD89DF5FBD5">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-28 13:09:18 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5DD7094-179E-766A-A9FF-F232349036BC" referredColumn="5507287E-9D9C-1AAE-EF78-50A3C5F57C3B"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="0D7FDF0D-2533-AE18-30A6-00D5F738E3F2" name="Studentska_Sluzba_PK">
+<ind_PK_UK id="8C706BA1-59C3-C7F8-DCEB-E694737E7884" name="Zaposleni_Sekretarijat_Sekretarijat_FK">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:41:11 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="854F611D-5EBB-0C0D-94D9-7775F3D8AA57"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="EED14C8D-A06D-4369-FC1E-72A733142F6E" name="Studentska_Sluzba_Fakulteti_FK">
-<createdBy>pc</createdBy>
-<createdTime>2024-11-28 13:09:52 UTC</createdTime>
+<createdTime>2024-11-28 13:07:18 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A3C68944-E685-15A4-A9C8-61EEEC8B2E5A"/>
+<colUsage columnID="8E8C76EA-1162-052E-4E59-5C0D75FE25B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3167AB35-856D-3C3A-27AE-BFFCA47422EB" name="Zaposleni_Sekretarijat_Zaposleni_Fakultet_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-28 13:09:18 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCD87642-E617-F888-4A7F-DAD89DF5FBD5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

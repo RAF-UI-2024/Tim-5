@@ -12,7 +12,6 @@
 <createdBy>pc</createdBy>
 <createdTime>2024-11-10 15:50:28 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -35,6 +34,17 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11299D97-E5FE-AA04-5CF3-E9FEAF0CFA33" name="Administrativni_Radnik_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-28 13:22:31 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD90CE9C-5926-1CD4-D21C-A5CA40C7B1BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="FB38931C-AEEA-2F0B-B15D-3D17EEE57F33" name="Administrativni_Radnik_Zaposleni_FK">
 <createdBy>pc</createdBy>
 <createdTime>2024-11-10 15:50:55 UTC</createdTime>

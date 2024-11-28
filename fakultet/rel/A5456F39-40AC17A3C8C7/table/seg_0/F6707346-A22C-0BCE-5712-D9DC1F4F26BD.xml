@@ -42,16 +42,15 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Rate" id="F9E79A04-5017-5FDE-6D36-2C2AA5D0B33F">
+<Column name="Valuta" id="F9E79A04-5017-5FDE-6D36-2C2AA5D0B33F">
 <createdBy>pc</createdBy>
 <createdTime>2024-11-10 15:45:01 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

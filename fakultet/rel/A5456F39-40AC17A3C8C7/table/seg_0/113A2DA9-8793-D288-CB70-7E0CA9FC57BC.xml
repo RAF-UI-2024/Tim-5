@@ -43,22 +43,29 @@
 <colAssociation fkAssociation="F5036D17-2F80-0B91-ECB0-749845632AE7" referredColumn="CD37E4B7-2ADF-B9C7-D04D-2AF6F7817AFF"/>
 </associations>
 </Column>
-<Column name="Sekretarijat_Sekretarikat_ID" id="3418BDCF-50E5-83D2-2298-E49F632F5AD1">
+<Column name="Zaposleni_fakultet_ID" id="5507287E-9D9C-1AAE-EF78-50A3C5F57C3B">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:39:02 UTC</createdTime>
+<createdTime>2024-11-28 13:09:00 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="91FBEA7B-5549-A4AB-2EDA-1F70F418E650" referredColumn="90C66046-64A8-0714-E38B-FFF43F6BD8B8"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5A18364-8CED-744B-83F1-B38868A1B929" name="Zaposleni_Fakultet_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-28 13:09:15 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5507287E-9D9C-1AAE-EF78-50A3C5F57C3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="6DD2B0D1-C215-5145-BC5A-2719D1502754" name="Zaposleni_Fakultet_Zaposleni_FK">
 <createdBy>pc</createdBy>
 <createdTime>2024-10-15 13:54:52 UTC</createdTime>
@@ -67,16 +74,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="46249C9C-04E2-0C37-FE1E-631D9FE2ABAF"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="4155F729-1FD4-C5A0-2C08-7EBBBFDB6C85" name="Zaposleni_Fakultet_Sekretarijat_FK">
-<createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:39:02 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="3418BDCF-50E5-83D2-2298-E49F632F5AD1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,26 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5904431F-706C-B916-B90F-797A6F3AA2CE" name="Studentska_Sluzba">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="983C79AB-1DF3-8867-492F-3F92FF1B5D04" name="Zaposleni_Studentska_Sluzba">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:40:40 UTC</createdTime>
+<createdTime>2024-11-28 13:10:05 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
-<ordsAlias>table_39</ordsAlias>
+<ordsAlias>table_45</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Studentska_Sluzba_ID" id="854F611D-5EBB-0C0D-94D9-7775F3D8AA57">
+<Column name="Studentska_Sluzba_Studentska_Sluzba_ID" id="248A82E8-302A-C115-4EDE-06AC13A06D93">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:41:11 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Fakulteti_Fakultet_ID" id="A3C68944-E685-15A4-A9C8-61EEEC8B2E5A">
-<createdBy>pc</createdBy>
-<createdTime>2024-11-28 13:09:52 UTC</createdTime>
+<createdTime>2024-11-28 13:10:22 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,30 +19,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="530B02F6-4B12-212E-A7BF-BF7A671F5369" referredColumn="AB623E93-E9AE-E7C0-00E2-28EA9F81EA8C"/>
+<colAssociation fkAssociation="6E0059E1-F47A-4AC3-C801-BCC058884091" referredColumn="854F611D-5EBB-0C0D-94D9-7775F3D8AA57"/>
+</associations>
+</Column>
+<Column name="Zaposleni_Fakultet_Zaposleni_fakultet_ID" id="F235A494-A83C-3A62-9AF1-FA6EC98B1292">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-28 13:10:30 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5DBAAD7-DE22-4016-1908-9970244685FC" referredColumn="5507287E-9D9C-1AAE-EF78-50A3C5F57C3B"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="0D7FDF0D-2533-AE18-30A6-00D5F738E3F2" name="Studentska_Sluzba_PK">
+<ind_PK_UK id="07A583E6-4EAE-048D-6686-1C41C52DB44C" name="Zaposleni_Studentska_Sluzba_Studentska_Sluzba_FK">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:41:11 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="854F611D-5EBB-0C0D-94D9-7775F3D8AA57"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="EED14C8D-A06D-4369-FC1E-72A733142F6E" name="Studentska_Sluzba_Fakulteti_FK">
-<createdBy>pc</createdBy>
-<createdTime>2024-11-28 13:09:52 UTC</createdTime>
+<createdTime>2024-11-28 13:10:22 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A3C68944-E685-15A4-A9C8-61EEEC8B2E5A"/>
+<colUsage columnID="248A82E8-302A-C115-4EDE-06AC13A06D93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6067CE72-216C-9018-168F-3F7951243A4A" name="Zaposleni_Studentska_Sluzba_Zaposleni_Fakultet_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-28 13:10:30 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F235A494-A83C-3A62-9AF1-FA6EC98B1292"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -12,7 +12,6 @@
 <createdBy>pc</createdBy>
 <createdTime>2024-11-10 15:50:03 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -35,6 +34,17 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7830A58-668A-876B-18A8-1FCF4FE55F20" name="Tetkica_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-11-28 13:22:26 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AEDA53F-F32E-B3C6-5A84-14012CF5E228"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="3B9D3F14-C25B-BDCE-3B5C-06194C23B069" name="Tetkica_Zaposleni_FK">
 <createdBy>pc</createdBy>
 <createdTime>2024-11-10 15:51:00 UTC</createdTime>
