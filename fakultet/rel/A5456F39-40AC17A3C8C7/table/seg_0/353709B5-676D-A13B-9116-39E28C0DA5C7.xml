@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="353709B5-676D-A13B-9116-39E28C0DA5C7" name="Marketinska_Kampanja">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 12:06:47 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_66</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Marketinska_Kampanja_ID" id="25A587DC-3CC6-4474-1097-317DD4FE8A8C">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 12:07:08 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Marketing_Marketing_ID" id="98335F49-D3F8-9211-486A-72AD148BC1D8">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 12:07:17 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB157708-61B7-7772-047C-FBB61C56EF2F" referredColumn="EEF2FD40-94AE-1DBF-4B81-A058683FBB99"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C591DAC8-3FB3-B7BE-59D3-CF1C172E8582" name="Marketinska_Kampanja_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 12:07:13 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25A587DC-3CC6-4474-1097-317DD4FE8A8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB3DD944-6AA8-02FE-EB62-B873771F8A42" name="Marketinska_Kampanja_Marketing_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 12:07:17 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98335F49-D3F8-9211-486A-72AD148BC1D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Stipendija_Stipendija_ID" id="C3861E44-DDCE-1799-5FD1-B27116FC88D8">
+<Column name="Procenat_Stipendije_Procenat_Stipendije_ID" id="4170AA5A-FA22-74FF-94CD-309A3C5A0636">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-28 13:20:35 UTC</createdTime>
+<createdTime>2024-12-04 11:46:50 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,7 +29,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="04DB38E7-5C3A-0E4B-C9D0-6F802B54A0D6" referredColumn="BF007561-CFA4-B8AD-08CA-EF7120A81B1E"/>
+<colAssociation fkAssociation="8871768D-36A7-985F-9FB8-C58A16476C43" referredColumn="72F76149-C5B7-3AF1-9A73-E1B07AB27098"/>
 </associations>
 </Column>
 </columns>
@@ -45,14 +45,14 @@
 <colUsage columnID="C70F949D-0C74-AF38-758C-D0EB1DA035FC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AC389DF6-0ACC-4D52-B4BF-F093AD82A393" name="Tip_Stipendije_Stipendija_FK">
+<ind_PK_UK id="3614485C-5D69-2B36-211D-D3089602AE78" name="Tip_Stipendije_Procenat_Stipendije_FK">
 <createdBy>pc</createdBy>
-<createdTime>2024-11-28 13:20:35 UTC</createdTime>
+<createdTime>2024-12-04 11:46:50 UTC</createdTime>
 <ownerDesignName>fakultet</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C3861E44-DDCE-1799-5FD1-B27116FC88D8"/>
+<colUsage columnID="4170AA5A-FA22-74FF-94CD-309A3C5A0636"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -8,20 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Predmeti_Predmet_ID" id="16150D63-87D2-A360-F720-1E7274EFE5B1">
-<createdBy>pc</createdBy>
-<createdTime>2024-10-15 14:14:05 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A54D5C8E-3F53-0EF8-B17C-3AD3BB50BD2A" referredColumn="569CEC3E-4EA7-485A-1077-9621D2B82E8A"/>
-</associations>
-</Column>
 <Column name="Implementacija_Smera_Implementacija_Smera_ID" id="462888A6-9D9E-B637-BBD5-C6CE302433FB">
 <createdBy>pc</createdBy>
 <createdTime>2024-11-06 10:19:33 UTC</createdTime>
@@ -36,18 +22,22 @@
 <colAssociation fkAssociation="BD02E87F-0283-A77F-6F11-BEEB916C8AAE" referredColumn="FF4BC5A6-DC7F-1318-5E59-95E590957F92"/>
 </associations>
 </Column>
+<Column name="Implementacija_Predmeta_Implementacija_Predmeta_ID" id="EC8A1A82-3878-C218-F90B-83F23585297E">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 11:51:22 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9A27252-AB0F-2CA6-6CC6-72C6321720EE" referredColumn="39078D8C-656C-488F-F61F-E3B9E8B50794"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="B67C0B09-8AD7-68E5-01BD-5986A1D90BC5" name="Predmet_Smer_Predmeti_FK">
-<createdBy>pc</createdBy>
-<createdTime>2024-10-15 14:14:05 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="16150D63-87D2-A360-F720-1E7274EFE5B1"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="103FF8B3-62E0-7147-901A-A49E21F971D0" name="Predmet_Smer_Implementacija_Smera_FK">
 <createdBy>pc</createdBy>
 <createdTime>2024-11-06 10:19:33 UTC</createdTime>
@@ -56,6 +46,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="462888A6-9D9E-B637-BBD5-C6CE302433FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="953A5114-9DCC-E8A6-F3A2-8CD19DACE85D" name="Predmet_Smer_Implementacija_Predmeta_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 11:51:22 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC8A1A82-3878-C218-F90B-83F23585297E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

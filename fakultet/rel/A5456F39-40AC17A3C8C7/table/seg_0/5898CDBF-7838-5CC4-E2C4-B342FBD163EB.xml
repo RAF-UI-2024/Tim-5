@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5898CDBF-7838-5CC4-E2C4-B342FBD163EB" name="Stipendija_Od_Treceg_Lica">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 11:45:07 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_54</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Trece_Lice_Trece_Lice_ID" id="2679F5FF-42F8-DA50-4EE9-9339C0A556F1">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 11:45:27 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98E658A0-CEFD-96CA-EE0E-7D50449B748A" referredColumn="B1A70EF4-0185-8566-47EA-436969F53138"/>
+</associations>
+</Column>
+<Column name="Tip_Stipendije_Tip_Stipendije_ID" id="40B54E62-8525-726C-138B-AC5ACA368DAD">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 11:45:30 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FEBB42D-89C0-AF48-E069-26884D7A1CBA" referredColumn="C70F949D-0C74-AF38-758C-D0EB1DA035FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE400108-446F-70F0-72E6-F56107081D36" name="Stipendija_Od_Treceg_Lica_Trece_Lice_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 11:45:27 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2679F5FF-42F8-DA50-4EE9-9339C0A556F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8BEA47C-E105-0FD2-8914-299816472D63" name="Stipendija_Od_Treceg_Lica_Tip_Stipendije_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 11:45:30 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40B54E62-8525-726C-138B-AC5ACA368DAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

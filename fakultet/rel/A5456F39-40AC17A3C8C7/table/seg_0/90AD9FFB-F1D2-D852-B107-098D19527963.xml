@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90AD9FFB-F1D2-D852-B107-098D19527963" name="Vreme_Trajanja_Akreditacije">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 11:56:06 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_59</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Vreme_Trajanja_Akreditacije_ID" id="80189D19-2D12-622C-E4F2-115D01A91F9D">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 11:56:32 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Akreditovan_Od" id="07E1EDBB-3E77-6D2E-967D-F8110201FD72">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 11:57:00 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Akreditovan_Do" id="5362C4C4-C564-98EA-2252-53A68F965719">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 11:57:10 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Smerovi_Smer_ID" id="09F6D3CB-6232-88B3-FFC5-558ECF2E1362">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 11:57:23 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FCE13A9-43F4-B023-6977-3DEA220E28AE" referredColumn="EDA5B4A6-468C-AB42-1077-0E33D77F526E"/>
+</associations>
+</Column>
+<Column name="Akreditacija_Akreditacija_ID" id="2DC82B3D-1F06-50E0-6F1F-34C881B5DB61">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 11:57:27 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="102E5A7F-AF02-955D-DEE1-79AF82844DBF" referredColumn="3E5F463E-2DB7-15C4-4F43-944B3F6426B2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC8270DF-B2E1-BF71-0089-B5D12C66A572" name="Vreme_Trajanja_Akreditacije_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 11:56:32 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80189D19-2D12-622C-E4F2-115D01A91F9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91ACCED5-542E-1697-F32B-937C0DA40CAD" name="Vreme_Trajanja_Akreditacije_Smerovi_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 11:57:23 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09F6D3CB-6232-88B3-FFC5-558ECF2E1362"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B75B7C25-252B-E61E-1095-E12C8D6D314B" name="Vreme_Trajanja_Akreditacije_Akreditacija_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 11:57:27 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DC82B3D-1F06-50E0-6F1F-34C881B5DB61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

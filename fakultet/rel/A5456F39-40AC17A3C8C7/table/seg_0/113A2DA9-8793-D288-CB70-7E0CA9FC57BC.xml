@@ -53,6 +53,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Fakulteti_Fakultet_ID" id="72F714FD-D673-7F8A-CCAD-E121952CBFA4">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 11:40:08 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69C58CF5-12E8-E2E1-5F2A-76C06EB60F9C" referredColumn="AB623E93-E9AE-E7C0-00E2-28EA9F81EA8C"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="C5A18364-8CED-744B-83F1-B38868A1B929" name="Zaposleni_Fakultet_PK">
@@ -74,6 +88,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="46249C9C-04E2-0C37-FE1E-631D9FE2ABAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8721482F-98FF-8936-9B35-FBA3687B3245" name="Zaposleni_Fakultet_Fakulteti_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 11:40:08 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72F714FD-D673-7F8A-CCAD-E121952CBFA4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

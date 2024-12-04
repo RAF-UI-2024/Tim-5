@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="98E658A0-CEFD-96CA-EE0E-7D50449B748A" containerWithKeyObject="5898CDBF-7838-5CC4-E2C4-B342FBD163EB" localFKIndex="CE400108-446F-70F0-72E6-F56107081D36" name="Stipendija_Od_Treceg_Lica_Trece_Lice_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 11:45:27 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<referredTableLongName>Trece_Lice</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>417D2DE8-5759-057A-3F2B-7A2698E1ED3B</referredTableID>
+<keyObject>66F6945E-0CFC-7496-03A9-8031A28B3D46</keyObject>
+<referredKeyID>66F6945E-0CFC-7496-03A9-8031A28B3D46</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Trece_Lice_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

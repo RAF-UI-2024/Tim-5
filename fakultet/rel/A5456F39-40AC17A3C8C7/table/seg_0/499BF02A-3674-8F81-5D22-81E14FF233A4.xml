@@ -28,6 +28,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Univerzitet_Unverzitet_ID" id="D89542D0-263A-7A7A-B0D1-6362C683AE42">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 11:19:46 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6618D983-5604-C957-ABBD-3161FF74E806" referredColumn="B1BD8E34-BA41-4386-AF28-6059ADAEF3FB"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="75FA9103-FE73-D1DA-13D2-A32D94E1D8F1" name="Fakultet_PK">
@@ -39,6 +53,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="AB623E93-E9AE-E7C0-00E2-28EA9F81EA8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="699250A8-6F17-8FDE-5110-D6B5B0399490" name="Fakulteti_Univerzitet_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 11:19:46 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D89542D0-263A-7A7A-B0D1-6362C683AE42"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

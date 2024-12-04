@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="21AFD89C-E158-2204-4596-85B0B710E366" name="Vrsta_Fakulteta">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 12:03:55 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_63</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Struka" id="9BF70C4C-7730-8E54-D74F-A8134AB570F1">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 12:04:21 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fakulteti_Fakultet_ID" id="0798D88F-BBE9-3CA7-559D-52A7B60D7CCC">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 12:04:24 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF9C220F-AB67-14B2-E76E-3028C8012B76" referredColumn="AB623E93-E9AE-E7C0-00E2-28EA9F81EA8C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="031BA28E-460B-D13D-081F-C60C1CCDB417" name="Vrsta_Fakulteta_Fakulteti_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 12:04:24 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0798D88F-BBE9-3CA7-559D-52A7B60D7CCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

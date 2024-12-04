@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3F5D25E-785F-EF66-898E-22B8F8B6A60C" name="Privatni">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 12:02:01 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_61</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Vlasnik" id="CA9AA498-B705-24F7-5735-1F7B7BDE82C2">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 12:02:35 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tip_Fakulteta_Tip_Fakulteta_ID" id="2CBB2847-427F-2B81-542E-90478B3B53B9">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 12:02:39 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0414D184-E47C-F259-9D25-A52CF9395353" referredColumn="EB0333D1-CFF3-A829-9CA9-0E49B7393BCA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5732EF7-23FB-9330-F2DA-AABF7EBEC02B" name="Privatni_Tip_Fakulteta_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 12:02:39 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CBB2847-427F-2B81-542E-90478B3B53B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

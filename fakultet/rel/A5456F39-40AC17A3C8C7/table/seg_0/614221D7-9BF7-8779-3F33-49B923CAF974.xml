@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="614221D7-9BF7-8779-3F33-49B923CAF974" name="Zaposleni_Marketing">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 12:06:23 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_65</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Marketing_Marketing_ID" id="191D91B5-8D9A-597E-20BF-67D13C9730B6">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 12:06:33 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E11CC64-556C-EEFD-9A54-C50ED7428944" referredColumn="EEF2FD40-94AE-1DBF-4B81-A058683FBB99"/>
+</associations>
+</Column>
+<Column name="Zaposleni_Zapolseni_ID" id="1CD8D537-8C81-73B3-5E27-1C3729C00542">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 12:06:37 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB15ABE3-CAB7-1FCE-BF20-D5DE460D0ED9" referredColumn="CD37E4B7-2ADF-B9C7-D04D-2AF6F7817AFF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE81707A-1069-D91F-1DE3-F1520DBE903E" name="Zaposleni_Marketing_Marketing_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 12:06:33 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="191D91B5-8D9A-597E-20BF-67D13C9730B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62E2A062-D647-A532-F5C3-1EAF8C2DE5E9" name="Zaposleni_Marketing_Zaposleni_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-04 12:06:37 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CD8D537-8C81-73B3-5E27-1C3729C00542"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
