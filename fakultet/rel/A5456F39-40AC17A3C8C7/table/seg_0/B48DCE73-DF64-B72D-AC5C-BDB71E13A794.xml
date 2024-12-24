@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B48DCE73-DF64-B72D-AC5C-BDB71E13A794" name="Anketa_O_Upisu">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:17:42 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_66</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Anketa_O_Upisu_ID" id="EE12A78F-2124-C9FF-70D8-AA2A176CC057">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:18:06 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Upis_Upis_ID" id="461CC026-FE63-AC48-5CD0-8DFE11D12BF3">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:18:13 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FC55B4B-C591-01F1-CAF8-EB2AC0B2AFE8" referredColumn="D33767E0-0990-470D-5F3E-28790C7FEAEF"/>
+</associations>
+</Column>
+<Column name="Nacin_Upisa" id="09A69F5F-B110-956D-B0EC-D3957A034B06">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:19:20 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD8EE8D7-D8C5-C596-5327-AA8FE55E0F8A" name="Anketa_O_Upisu_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:18:06 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE12A78F-2124-C9FF-70D8-AA2A176CC057"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5FB5978-A054-B645-8AEE-4106E0831EC1" name="Anketa_O_Upisu_Upis_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:18:13 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="461CC026-FE63-AC48-5CD0-8DFE11D12BF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

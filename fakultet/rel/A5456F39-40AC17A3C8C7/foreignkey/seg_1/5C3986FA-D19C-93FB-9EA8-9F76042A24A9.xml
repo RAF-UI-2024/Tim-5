@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="5C3986FA-D19C-93FB-9EA8-9F76042A24A9" containerWithKeyObject="A991BA7D-8C70-99BF-D49E-C6CDB5C0750C" localFKIndex="526ADA79-473C-CF0B-31C9-B2991DE4C887" name="Tip_Kampanje_Marketinska_Kampanja_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:16:35 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<referredTableLongName>Marketinska_Kampanja</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>353709B5-676D-A13B-9116-39E28C0DA5C7</referredTableID>
+<keyObject>C591DAC8-3FB3-B7BE-59D3-CF1C172E8582</keyObject>
+<referredKeyID>C591DAC8-3FB3-B7BE-59D3-CF1C172E8582</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Marketinska_Kampanja_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

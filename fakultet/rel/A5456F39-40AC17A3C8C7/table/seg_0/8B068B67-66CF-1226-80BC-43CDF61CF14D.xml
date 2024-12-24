@@ -38,20 +38,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Semestar_Smer_Semestar_Smer_ID" id="2D9DDA85-5787-2971-4438-C3B40914E681">
-<createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:27:59 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="85980592-5FC0-DC14-7686-5E918ECC44F1" referredColumn="BA1EAFA0-3BB7-9174-18F5-E6D198D714B2"/>
-</associations>
-</Column>
 <Column name="Studenti_Student_ID" id="33E6504B-47FB-D41F-D3DB-FEA1EEEACCCE">
 <createdBy>pc</createdBy>
 <createdTime>2024-11-10 15:30:17 UTC</createdTime>
@@ -77,16 +63,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FF4BC5A6-DC7F-1318-5E59-95E590957F92"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="3E870F09-42FE-95A3-E27B-0A97DA3BAC73" name="Implementacija_Smera_Semestar_Smer_FK">
-<createdBy>pc</createdBy>
-<createdTime>2024-11-10 15:27:59 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="2D9DDA85-5787-2971-4438-C3B40914E681"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="CD81470D-F7A7-995D-9BB8-DC58E729A7FE" name="Implementacija_Smera_Studenti_FK">

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="669631D2-811C-7164-BF3B-7DB71573D643" name="Univerzitet_Fakultet">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:13:39 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_64</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Univerzitet_Unverzitet_ID" id="5BA4EBE8-27C1-235E-0F77-C1BB4BC3AC90">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:13:58 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32A08A13-2B37-190E-210D-80AD10E716DE" referredColumn="B1BD8E34-BA41-4386-AF28-6059ADAEF3FB"/>
+</associations>
+</Column>
+<Column name="Univerzitet_Fakultet_ID" id="0FBBD5AE-CDDF-B87D-BDB4-445682CEC246">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:14:29 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E86205DD-739D-D945-1EBB-A530095AD073" name="Univerzitet_Fakultet_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:14:29 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FBBD5AE-CDDF-B87D-BDB4-445682CEC246"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3FC0D06-AD70-8317-A9CC-D7B670685F4C" name="Univerzitet_Fakultet_Univerzitet_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:13:58 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BA4EBE8-27C1-235E-0F77-C1BB4BC3AC90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

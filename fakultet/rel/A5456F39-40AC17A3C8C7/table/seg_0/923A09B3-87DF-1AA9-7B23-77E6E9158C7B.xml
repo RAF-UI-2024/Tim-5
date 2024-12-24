@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="923A09B3-87DF-1AA9-7B23-77E6E9158C7B" name="Prava_Implementacija_Predmeta">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:25:26 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_67</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Prava_Implementacija_Predmeta_ID" id="18690EDA-5934-92B2-595B-E107EC96D668">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:26:06 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Semestar_Smer_Semestar_Smer_ID" id="39C27DB2-430C-C56A-DB65-3DED935C57A3">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:27:16 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A664249A-27CE-D877-92D8-65387936631B" referredColumn="BA1EAFA0-3BB7-9174-18F5-E6D198D714B2"/>
+</associations>
+</Column>
+<Column name="Implementacija_Smera_Implementacija_Smera_ID" id="367FD97F-10CC-48EB-0136-30C4016A2DD9">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:27:39 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E6EB190-4FA5-7EDD-359E-B7289FD4968D" referredColumn="FF4BC5A6-DC7F-1318-5E59-95E590957F92"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B77C5D4-AFEE-0C89-29B7-664B885D8354" name="Prava_Implementacija_Predmeta_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:26:06 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18690EDA-5934-92B2-595B-E107EC96D668"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77F09011-6E0A-DFED-882A-52B857124795" name="Prava_Implementacija_Predmeta_Semestar_Smer_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:27:16 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39C27DB2-430C-C56A-DB65-3DED935C57A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1D83236-5284-9E5C-F49E-F3081D63DBFF" name="Prava_Implementacija_Predmeta_Implementacija_Smera_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:27:39 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="367FD97F-10CC-48EB-0136-30C4016A2DD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

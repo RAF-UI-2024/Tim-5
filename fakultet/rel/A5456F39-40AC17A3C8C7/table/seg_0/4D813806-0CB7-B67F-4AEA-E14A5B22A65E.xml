@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D813806-0CB7-B67F-4AEA-E14A5B22A65E" name="Tip_Akreditacije">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:29:21 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_68</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tip_Akreditacije_ID" id="C4FC0849-2D58-F38D-4D74-1029616C0017">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:29:40 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Akreditacija_Akreditacija_ID" id="AC9344B6-2F37-AC5C-2C60-3C6A06AEC8F0">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:29:43 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C5651A1-1BE4-9568-ADDF-B25B5532075B" referredColumn="3E5F463E-2DB7-15C4-4F43-944B3F6426B2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8DF4D1D6-960A-25CE-F4A9-188AD99EF653" name="Tip_Akreditacije_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:29:40 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4FC0849-2D58-F38D-4D74-1029616C0017"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E95FB3B1-F3C3-36E1-5D8F-171051E053C2" name="Tip_Akreditacije_Akreditacija_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-12-24 14:29:43 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC9344B6-2F37-AC5C-2C60-3C6A06AEC8F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
