@@ -38,20 +38,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Smerovi_Smer_ID" id="09F6D3CB-6232-88B3-FFC5-558ECF2E1362">
-<createdBy>pc</createdBy>
-<createdTime>2024-12-04 11:57:23 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="7FCE13A9-43F4-B023-6977-3DEA220E28AE" referredColumn="EDA5B4A6-468C-AB42-1077-0E33D77F526E"/>
-</associations>
-</Column>
 <Column name="Akreditacija_Smera_Akreditacija_Smera_ID" id="3DFD054E-4A28-CFC2-622B-E77597C4B947">
 <createdBy>pc</createdBy>
 <createdTime>2024-12-24 14:31:14 UTC</createdTime>
@@ -77,16 +63,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="80189D19-2D12-622C-E4F2-115D01A91F9D"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="91ACCED5-542E-1697-F32B-937C0DA40CAD" name="Vreme_Trajanja_Akreditacije_Smerovi_FK">
-<createdBy>pc</createdBy>
-<createdTime>2024-12-04 11:57:23 UTC</createdTime>
-<ownerDesignName>fakultet</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="09F6D3CB-6232-88B3-FFC5-558ECF2E1362"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="78911F04-4DEB-8089-EC69-FDF7076DD353" name="Vreme_Trajanja_Akreditacije_Akreditacija_Smera_FK">

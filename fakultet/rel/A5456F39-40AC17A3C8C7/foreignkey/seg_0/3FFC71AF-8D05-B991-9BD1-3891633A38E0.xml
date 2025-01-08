@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3FFC71AF-8D05-B991-9BD1-3891633A38E0" containerWithKeyObject="1E3681D8-B75B-2E57-319D-4566B2DDC487" localFKIndex="81D846AA-A25C-E821-F386-95EE4CABF6C3" name="Osnovni_Smer_Vreme_Trajanja_Akreditacije_Smera_FK">
+<createdBy>pc</createdBy>
+<createdTime>2025-01-08 15:49:57 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<referredTableLongName>Vreme_Trajanja_Akreditacije_Smera</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>90AD9FFB-F1D2-D852-B107-098D19527963</referredTableID>
+<keyObject>AC8270DF-B2E1-BF71-0089-B5D12C66A572</keyObject>
+<referredKeyID>AC8270DF-B2E1-BF71-0089-B5D12C66A572</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Vreme_Trajanja_Akreditacije_Smera_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

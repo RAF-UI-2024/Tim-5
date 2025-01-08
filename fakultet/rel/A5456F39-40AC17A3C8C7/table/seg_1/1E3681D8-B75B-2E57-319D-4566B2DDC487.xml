@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="1E3681D8-B75B-2E57-319D-4566B2DDC487" name="Osnovni_Smer">
+<createdBy>pc</createdBy>
+<createdTime>2025-01-08 15:49:07 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<ordsAlias>table_72</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Vreme_Trajanja_Akreditacije_Smera_Vreme_Trajanja_Akreditacije_Smera_ID" id="8ACD84A0-6C28-7564-3935-F7EE1F8758F5">
+<createdBy>pc</createdBy>
+<createdTime>2025-01-08 15:49:57 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3FFC71AF-8D05-B991-9BD1-3891633A38E0" referredColumn="80189D19-2D12-622C-E4F2-115D01A91F9D"/>
+</associations>
+</Column>
+<Column name="Implementacija_Smera_Implementacija_Smera_ID" id="4B1AA51F-3B0C-84A9-EF52-FCD85BCEFE8D">
+<createdBy>pc</createdBy>
+<createdTime>2025-01-08 15:50:02 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A7FCB98-6544-58D9-5389-9DD2B6B12715" referredColumn="FF4BC5A6-DC7F-1318-5E59-95E590957F92"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81D846AA-A25C-E821-F386-95EE4CABF6C3" name="Osnovni_Smer_Vreme_Trajanja_Akreditacije_Smera_FK">
+<createdBy>pc</createdBy>
+<createdTime>2025-01-08 15:49:57 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8ACD84A0-6C28-7564-3935-F7EE1F8758F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6B5EF84-B58D-E209-3D5C-8C49B6C434DE" name="Osnovni_Smer_Implementacija_Smera_FK">
+<createdBy>pc</createdBy>
+<createdTime>2025-01-08 15:50:02 UTC</createdTime>
+<ownerDesignName>fakultet</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B1AA51F-3B0C-84A9-EF52-FCD85BCEFE8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
